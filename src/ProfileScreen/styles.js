@@ -1,0 +1,105 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  descriptionText:{
+    fontSize:14,
+    color:'#727682',
+    fontWeight:'500'
+  },
+  pointText:{
+    fontSize:12,
+    color:'#727682',
+    fontWeight:'500',
+    marginBottom:8
+  },
+  name:{
+    fontSize:14,
+    color:'#333',
+    fontWeight:'500',
+    marginTop:8
+  },
+  logout:{
+    flexDirection:'row',
+    alignItems:'center',
+    marginTop:20
+  },
+  logoutText:{
+    fontSize:14,
+    fontWeight:'500',
+    color:'#727682'
+  },
+  starContainer:{
+    height:149,
+    width:375,
+    borderWidth:0.5,
+    borderColor:'lightgrey',
+    borderRadius:3,
+    marginTop:44,
+    padding:20,
+    flexDirection:'row',
+    justifyContent:'flex-start'
+  },
+  underOverTopContainer:{
+    flexDirection:'row',
+    alignItems:'center',
+    marginTop:14
+  },
+  text:{
+    fontSize:14,
+    fontWeight:'600',
+    color:'#727682',
+    marginBottom:14
+  },
+  image:{
+    height:32,
+    width:32
+  },
+  percent:{
+    color:'#4f4f4f',
+    fontSize:24,
+    fontWeight:'700'
+  },
+  star:{
+    position:"absolute" ,
+    top:-15,
+    right:180
+  },
+  tab:{
+    width:210,
+    height:50,
+    backgroundColor:'#fff',
+    alignItems:'center',
+    justifyContent:'center'
+  },
+  tabText:{
+    fontSize:14,
+    fontWeight:'500',
+  },
+  tabContainer:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 5,
+  },
+  itemContainer:{
+    flexDirection:'row',
+    height:105,
+    backgroundColor:'#fff',
+    margin:10,
+    padding:16,
+    borderRadius:5,
+    elevation:2
+  },
+  description:{
+    fontSize:14,
+    fontWeight:'500',
+    color:'#727682',
+    marginTop:8
+  },
+  title:{
+    fontSize:14,
+    fontWeight:'600',
+    color:'#333',
+   
+  }
+});
